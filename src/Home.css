@@ -1,0 +1,80 @@
+.noteslogin {
+    background-color:#A1AEF4;
+    height: 60vh;
+    width: 40vh ;
+    border-radius: 0%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+    font-family: 'Comfortaa', cursive;
+    -webkit-box-shadow: 4px 6px 5px 0px rgba(0,0,0,0.51);
+    -moz-box-shadow: 4px 6px 5px 0px rgba(0,0,0,0.51);
+    box-shadow: 4px 6px 5px 0px rgba(0,0,0,0.51);
+}
+
+input[type=email] {
+    background-color:#AAB5F5 ;
+    border: .5px solid rgba(255, 255, 255, 0.568);
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    padding: 5px;
+    width: 100%;
+}
+
+::-webkit-input-placeholder { 
+    color:white; 
+    font-size:  10px;
+    
+}
+
+input[type=password]{
+    background-color:#AAB5F5 ;
+    border: .5px solid rgba(255, 255, 255, 0.568);
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    padding: 5px;
+    width: 100%;
+}
+
+.buttons{
+    display:flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10%;   
+  }
+
+  .buttonReg{
+      background-color:#A1AEF4;
+      border: 0;
+      padding: 8px;
+      color: white;
+      border-radius: 5px ;
+      -webkit-box-shadow: 3px 5px 5px 0px rgba(0,0,0,0.75);
+      -moz-box-shadow: 3px 5px 5px 0px rgba(0,0,0,0.75);
+      box-shadow: 3px 5px 5px 0px rgba(0,0,0,0.75);
+  }
+
+  .buttlogin{
+    width: 80px;
+    height: 30px;
+    background-color:white;
+    border: 0;
+    padding: 8px;
+    color: #A1AEF4;
+    border-radius: 10px ;
+    -webkit-box-shadow: 3px 5px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 5px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 5px 5px 0px rgba(0,0,0,0.75);
+
+  }
+
+.imagelogo{
+    height: 10vh;
+    width: 20vh;
+
+
+}
+  

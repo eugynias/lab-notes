@@ -1,0 +1,29 @@
+body{
+  
+  color:#fff;
+  margin:0;
+  text-align: center;
+}
+
+.notesContainer{
+  height: auto;
+  width: auto;
+  background-color: #A1AEF4;
+  display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.notesBody{
+}
+.inputnote{
+
+  margin-bottom: 10px;
+}
+
+.buttondelete{
+  
+  margin-bottom: 10px;
+}
+
