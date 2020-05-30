@@ -1,6 +1,7 @@
 import React,{useState, useEffect }  from "react";
-import {BrowserRouter,
-       Switch,Route,useLocation} from "react-router-dom";
+import {HashRouter,
+       Switch,Route
+    } from "react-router-dom";
 import config from "./firebase";
 import App from "./App";
 import Home from "./Home";
@@ -28,13 +29,13 @@ function Router({props}){
     },[]);
     
         return(
-            <BrowserRouter>
+            <HashRouter>
             <Switch>
                 <Route user={user} setUser={setUser} exact path="/" component ={Home} />
-                <ProtectedRoute user={user} exact path="/App" component={App} /> } />
-                <Route exact path="/Register" component={Register} />
-             </Switch>
-        </BrowserRouter>
+                <ProtectedRoute user={user} exact path="App" component={App} /> } />
+                <Route exact path="Register" component={Register} />
+            </Switch>
+        </HashRouter>
 
         )
     }
