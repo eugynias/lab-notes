@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/lab-notes/static/css/main.926e744d.chunk.css",
+    "main.js": "/lab-notes/static/js/main.dacb4c71.chunk.js",
+    "main.js.map": "/lab-notes/static/js/main.dacb4c71.chunk.js.map",
+    "runtime-main.js": "/lab-notes/static/js/runtime-main.d35389c7.js",
+    "runtime-main.js.map": "/lab-notes/static/js/runtime-main.d35389c7.js.map",
+    "static/js/2.31f6fe2e.chunk.js": "/lab-notes/static/js/2.31f6fe2e.chunk.js",
+    "static/js/2.31f6fe2e.chunk.js.map": "/lab-notes/static/js/2.31f6fe2e.chunk.js.map",
+    "index.html": "/lab-notes/index.html",
+    "precache-manifest.1e440859c8e447f205860369dcde19a0.js": "/lab-notes/precache-manifest.1e440859c8e447f205860369dcde19a0.js",
+    "service-worker.js": "/lab-notes/service-worker.js",
+    "static/css/main.926e744d.chunk.css.map": "/lab-notes/static/css/main.926e744d.chunk.css.map",
+    "static/js/2.31f6fe2e.chunk.js.LICENSE.txt": "/lab-notes/static/js/2.31f6fe2e.chunk.js.LICENSE.txt",
+    "static/media/notes.svg": "/lab-notes/static/media/notes.597f57fe.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d35389c7.js",
+    "static/js/2.31f6fe2e.chunk.js",
+    "static/css/main.926e744d.chunk.css",
+    "static/js/main.dacb4c71.chunk.js"
+  ]
+}
